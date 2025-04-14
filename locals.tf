@@ -4,7 +4,7 @@ locals {
     "Name" = local.name
     "project_application" = "${var.project_application}"
     "unique_id" = "${var.unique_id}"
-    "region" = "${var.project_application}"
+    "region" = "${var.region}"
     "infra_provider" = "${var.infra_provider}"
     "owner" = "${var.owner}"
     "environment" = "${var.environment}"
